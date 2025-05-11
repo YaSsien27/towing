@@ -18,6 +18,13 @@ const Navbar = () => {
             </button>
           </Link>
         </div>
+        <div className="nav-actions2">
+          <Link to="/history">
+            <button className="his-btn">
+              View History
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

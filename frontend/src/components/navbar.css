@@ -69,6 +69,29 @@
   .add-btn svg {
     margin-right: 8px;
   }
+
+  .his-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .his-btn:hover {
+    background-color: #2b6cb0;
+    transform: translateY(-3px);
+  }
+  
+  .his-btn svg {
+    margin-right: 8px;
+  }
   
   /* Responsive Design for Smaller Screens */
   @media screen and (max-width: 768px) {
